@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+
+# Rider
+.idea/
+
+# User-specific files
+*.user
+*.suo
+
+# Rider/JetBrains
+*.DotSettings.user
+
+# OS files
+.DS_Store
+
+# Local environment / secrets
+.env
+.env.*
+
+# ASP.NET local development
+appsettings.Local.json

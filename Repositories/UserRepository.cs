@@ -24,8 +24,7 @@ public class UserRepository : IUserRepository
         foreach (User user in _users)
         {
             if (user.Username.Equals(
-                    username,
-                    StringComparison.OrdinalIgnoreCase))
+                    username))
             {
                 return user;
             }
@@ -39,8 +38,7 @@ public class UserRepository : IUserRepository
         foreach (User user in _users)
         {
             if (user.Email.Equals(
-                    email,
-                    StringComparison.OrdinalIgnoreCase))
+                    email))
             {
                 return user;
             }
@@ -59,8 +57,7 @@ public class UserRepository : IUserRepository
         foreach (User user in _users)
         {
             if (user.Username.Equals(
-                    username,
-                    StringComparison.OrdinalIgnoreCase))
+                    username))
             {
                 return true;
             }
@@ -74,8 +71,7 @@ public class UserRepository : IUserRepository
         foreach (User user in _users)
         {
             if (user.Email.Equals(
-                    email,
-                    StringComparison.OrdinalIgnoreCase))
+                    email))
             {
                 return true;
             }

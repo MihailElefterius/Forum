@@ -34,7 +34,6 @@ public class AuthService : IAuthService
         {
             throw new InvalidOperationException("Email already exists.");
         }
-
         User user = new()
         {
             Username = dto.Username,
